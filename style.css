@@ -9,15 +9,22 @@ ul{
     margin: 0;
     display: flex;
     gap: 16px;
+    margin-right: 32px;
 }
 
 a{
     text-decoration: none;
+    
+}
+
+a:hover{
+    background-color: dodgerblue;
+  color: #fff;
+    
 }
 
 img{
-    width: 500px;
-    height: 250px;
+    width: 400px;
 }
 
 .first{
@@ -28,21 +35,54 @@ img{
 .header{
     display: flex;
     background-color: #1f2937;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 16px;
     align-items: center;
 }
 
-.leftpresentation{
-    width: 500px;
-}
+.logo{color: #f9faf8; font-size:25px;
+margin-left: 32px;}
+
 
 .presentation{
     background-color: #1f2937;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex:1;
+    flex-wrap: wrap;
     padding:32px;
+    padding-bottom: 80px;
+    
 }
+
+.leftpresentation{
+    width: 450px;
+    height: 300;
+    
+}
+
+.awesome{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.subtext{
+    text-align: justify;
+    margin: 8px 0;
+}
+
+.grey{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+  }
 
