@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 16px;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 500px;
+    height: 250px;
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-around;
+    padding: 16px;
+    align-items: center;
+}
+
+.leftpresentation{
+    width: 500px;
+}
+
+.presentation{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+    padding:32px;
+}
+
